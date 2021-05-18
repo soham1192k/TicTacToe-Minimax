@@ -14,7 +14,7 @@ struct TicTacToe{
     }
     void print(){
         for(int i=0;i<3;i++){
-            if(i) cout<<"----------------------\n";
+            if(i) cout<<"--------------\n";
             for(int j=0;j<3;j++){
                 if(j) cout<<"|";
                 cout<<" ";
